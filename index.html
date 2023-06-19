@@ -4,21 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <title>WebStudio</title>
     <link
-      rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      rel="stylesheet"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -28,7 +28,7 @@
           <a class="logo header-logo" href="./index.html"
             >Web<span class="header-logo-span">Studio</span></a
           >
-          <ul class="header-menu list">
+          <ul class="header-menu">
             <li class="header-menu-item">
               <a class="header-menu-link link link-active" href="./index.html"
                 >Studio</a
@@ -40,13 +40,13 @@
               >
             </li>
             <li class="header-menu-item">
-              <a class="header-menu-link link" href="">Contacts</a>
+              <a class="header-menu-link link" href>Contacts</a>
             </li>
           </ul>
         </nav>
 
         <address class="header-adr">
-          <ul class="header-adr-list list">
+          <ul class="header-menu">
             <li class="header-adr-item">
               <a class="header-adr-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
@@ -65,8 +65,10 @@
     <main>
       <section class="hero section">
         <div class="container hero-container">
-          <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button" data-modal-open>
+          <h1 class="title hero-title">
+            Effective solutions for your business
+          </h1>
+          <button class="hero-btn" data-modal-open type="button">
             Order Service
           </button>
         </div>
@@ -82,8 +84,8 @@
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="choose-list-title">Strategy</h3>
-              <p class="choose-list-text">
+              <h3 class="title choose-list-title">Strategy</h3>
+              <p class="text choose-list-text">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
@@ -94,8 +96,8 @@
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="choose-list-title">Punctuality</h3>
-              <p class="choose-list-text">
+              <h3 class="title choose-list-title">Punctuality</h3>
+              <p class="text choose-list-text">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
@@ -106,8 +108,8 @@
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="choose-list-title">Diligence</h3>
-              <p class="choose-list-text">
+              <h3 class="title choose-list-title">Diligence</h3>
+              <p class="text choose-list-text">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
@@ -118,8 +120,8 @@
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="choose-list-title">Technologies</h3>
-              <p class="choose-list-text">
+              <h3 class="title choose-list-title">Technologies</h3>
+              <p class="text choose-list-text">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -152,8 +154,8 @@
               <img
                 src="./images/wawd_3.jpg"
                 alt="Design"
-                width="360"
                 height="300"
+                width="360"
               />
             </li>
           </ul>
@@ -162,24 +164,22 @@
 
       <section class="team section">
         <div class="container team-container">
-          <h2 class="team-title">Our Team</h2>
+          <h2 class="title team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-list-item">
               <img
+                class="team-list-img"
                 src="./images/ot_mark.jpg"
                 alt="Mark Guerrero photo"
-                width="264"
-                height="260"
-                class="team-list-img"
               />
               <div class="team-list-container">
-                <h3 class="team-list-title">Mark Guerrero</h3>
+                <h3 class="subtitle team-list-title">Mark Guerrero</h3>
                 <p class="team-list-text">Product Designer</p>
                 <ul class="team-soc-list">
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="instagram"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -193,7 +193,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="twitter"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -205,7 +205,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -217,7 +217,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -231,20 +231,18 @@
             </li>
             <li class="team-list-item">
               <img
+                class="team-list-img"
                 src="./images/ot_tom.jpg"
                 alt="Tom Ford photo"
-                width="264"
-                height="260"
-                class="team-list-img"
               />
               <div class="team-list-container">
-                <h3 class="team-list-title">Tom Ford</h3>
+                <h3 class="subtitle team-list-title">Tom Ford</h3>
                 <p class="team-list-text">Frontend Developer</p>
                 <ul class="team-soc-list">
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="instagram"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -258,7 +256,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="twitter"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -270,7 +268,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -282,7 +280,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -296,20 +294,18 @@
             </li>
             <li class="team-list-item">
               <img
+                class="team-list-img"
                 src="./images/ot_camila.jpg"
                 alt="Camila Garcia photo"
-                width="264"
-                height="260"
-                class="team-list-img"
               />
               <div class="team-list-container">
-                <h3 class="team-list-title">Camila Garcia</h3>
+                <h3 class="subtitle team-list-title">Camila Garcia</h3>
                 <p class="team-list-text">Marketing</p>
                 <ul class="team-soc-list">
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="instagram"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -323,7 +319,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="twitter"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -335,7 +331,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -347,7 +343,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -361,20 +357,18 @@
             </li>
             <li class="team-list-item">
               <img
+                class="team-list-img"
                 src="./images/ot_daniel.jpg"
                 alt="Daniel Wilson photo"
-                width="264"
-                height="260"
-                class="team-list-img"
               />
               <div class="team-list-container">
-                <h3 class="team-list-title">Daniel Wilson</h3>
+                <h3 class="subtitle team-list-title">Daniel Wilson</h3>
                 <p class="team-list-text">UI Designer</p>
                 <ul class="team-soc-list">
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="instagram"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -388,7 +382,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="twitter"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -400,7 +394,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="facebook"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -412,7 +406,7 @@
                   <li class="team-soc-item">
                     <a
                       class="team-soc-link"
-                      href=""
+                      href
                       aria-label="linkedin"
                       target="_blank"
                       rel="noopener noreferrer"
@@ -428,14 +422,14 @@
         </div>
       </section>
 
-      <section class="customers">
+      <section class="customers section">
         <div class="container customers-container">
-          <h2 class="customers-title">Customers</h2>
+          <h2 class="title customers-title">Customers</h2>
           <ul class="customers-list">
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -447,7 +441,7 @@
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -459,7 +453,7 @@
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -471,7 +465,7 @@
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -483,7 +477,7 @@
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -495,7 +489,7 @@
             <li class="customers-list-item">
               <a
                 class="customers-item-link"
-                href=""
+                href
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -527,7 +521,7 @@
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
-                href=""
+                href
                 aria-label="instagram"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -540,7 +534,7 @@
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
-                href=""
+                href
                 aria-label="twitter"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -553,7 +547,7 @@
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
-                href=""
+                href
                 aria-label="facebook"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -566,7 +560,7 @@
             <li class="footer-soc-item">
               <a
                 class="footer-soc-link"
-                href=""
+                href
                 aria-label="linkedin"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -589,8 +583,8 @@
             <label class="footer-label">
               <input
                 class="footer-input"
-                type="email"
                 name="subscribe"
+                type="email"
                 placeholder="E-mail"
             /></label>
             <button class="footer-btn" type="submit">
@@ -606,7 +600,7 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="modal-btn" data-modal-close>
+        <button class="modal-btn" data-modal-close type="button">
           <svg class="modal-btn-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -620,9 +614,9 @@
             <div class="input-wrap">
               <input
                 class="modal-input"
-                type="text"
-                name="user-name"
                 id="user-name"
+                name="user-name"
+                type="text"
                 autofocus
                 required
               />
@@ -637,9 +631,9 @@
             <div class="input-wrap">
               <input
                 class="modal-input"
-                type="tel"
-                name="phone"
                 id="phone"
+                name="phone"
+                type="tel"
                 required
               />
               <svg class="modal-input-icon" width="18" height="24">
@@ -653,9 +647,9 @@
             <div class="input-wrap">
               <input
                 class="modal-input"
-                type="email"
-                name="mail"
                 id="mail"
+                name="mail"
+                type="email"
                 required
               />
               <svg class="modal-input-icon" width="18" height="24">
@@ -668,8 +662,8 @@
             <label class="modal-label" for="user-comment">Comment</label>
             <textarea
               class="modal-textarea"
-              name="user-comment"
               id="user-comment"
+              name="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -677,9 +671,9 @@
           <div class="modal-field-check">
             <input
               class="modal-check visually-hidden"
-              type="checkbox"
-              name="user-privacy"
               id="user-privacy"
+              name="user-privacy"
+              type="checkbox"
               value="true"
             />
             <label class="check-text" for="user-privacy">
@@ -689,11 +683,11 @@
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="" class="check-link">Privacy Policy</a>
+              <a class="check-link" href>Privacy Policy</a>
             </label>
           </div>
 
-          <button type="submit" class="form-button">Send</button>
+          <button class="form-button" type="submit">Send</button>
         </form>
       </div>
     </div>
