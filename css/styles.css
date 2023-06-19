@@ -473,10 +473,9 @@ img {
 }
 
 .footer-logo {
-  display: inline-block;
+  display: block; /* inline-block */
   margin-bottom: 16px;
-  /* transform: translateX(50%); */
-  /* right: 50%; */
+  text-align: center;
 }
 
 .footer-logo-span {
