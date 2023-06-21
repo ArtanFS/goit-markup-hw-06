@@ -562,21 +562,19 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(46, 47, 66, 0.4);
-  transition: opacity var(--transition), visibility var(--transition);
 }
 
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
+  width: 392px;
   min-height: 584px;
-  padding: 72px 24px 24px;
+  padding: 72px 16px 24px;
   border-radius: 4px;
   background-color: var(--color-modalbg);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transition: transform var(--transition);
   transform: translate(-50%, -50%) scale(1);
 }
 
@@ -594,7 +592,6 @@ img {
   border-radius: 50%;
   background-color: var(--color-accent);
   cursor: pointer;
-  transition: background-color var(--transition), border var(--transition);
 }
 
 .is-hidden {
@@ -606,21 +603,6 @@ img {
 .backdrop.is-hidden .modal {
   transform: translate(-50%, -25%) scale(0);
 }
-
-/* .modal-btn:hover,
-.modal-btn:focus {
-  border: none;
-  background-color: var(--color-pressed);
-} */
-
-.modal-btn-close {
-  transition: fill var(--transition);
-}
-
-/* .modal-btn:hover .modal-btn-close,
-.modal-btn:focus .modal-btn-close {
-  fill: var(--color-whitebg);
-} */
 
 .modal-text {
   margin-bottom: 16px;
@@ -724,11 +706,6 @@ img {
   transition: color var(--transition);
 }
 
-/* .check-link:hover,
-.check-link:focus {
-  color: var(--color-pressed);
-} */
-
 .modal-check-visible {
   display: inline-flex;
   justify-content: center;
@@ -749,10 +726,6 @@ img {
   fill: var(--color-light);
 }
 
-.modal-check:focus + .check-text .modal-check-visible {
-  border-color: var(--color-pressed);
-}
-
 .form-button {
   display: block;
   min-width: 169px;
@@ -769,17 +742,6 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  transition: background-color var(--transition);
-}
-
-/* .form-button:hover,
-.form-button:focus {
-  background-color: var(--color-pressed);
-} */
-
-.form-button:disabled {
-  background-color: #8e8f99;
-  color: #434455;
 }
 
 /**---------Mobile-menu------------*/
@@ -815,7 +777,7 @@ img {
   background-color: var(--color-whitebg);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  /* z-index: 999; */
+  z-index: 999;
   display: flex;
   flex-direction: column;
 

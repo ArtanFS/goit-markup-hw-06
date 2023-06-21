@@ -203,3 +203,52 @@
 .footer-btn:focus {
   background-color: var(--color-pressed);
 } */
+
+/**-----------Backdrop-------------*/
+
+.backdrop {
+  transition: opacity var(--transition), visibility var(--transition);
+}
+
+.modal {
+  width: 408px;
+  padding: 72px 24px 24px;
+  transition: transform var(--transition);
+}
+
+.modal-btn {
+  transition: background-color var(--transition), border var(--transition);
+}
+
+/* .modal-btn:hover,
+.modal-btn:focus {
+  border: none;
+  background-color: var(--color-pressed);
+} */
+
+.modal-btn-close {
+  transition: fill var(--transition);
+}
+
+/* .modal-btn:hover .modal-btn-close,
+.modal-btn:focus .modal-btn-close {
+  fill: var(--color-whitebg);
+} */
+
+/* .check-link:hover,
+.check-link:focus {
+  color: var(--color-pressed);
+} */
+
+.modal-check:focus + .check-text .modal-check-visible {
+  /* border-color: var(--color-pressed); */
+}
+
+.form-button {
+  transition: background-color var(--transition);
+}
+
+/* .form-button:hover,
+.form-button:focus {
+  background-color: var(--color-pressed);
+} */
