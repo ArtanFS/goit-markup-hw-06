@@ -294,6 +294,9 @@ img {
 /**-------------Main-S5--Customers-------*/
 
 .customers-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   margin-bottom: 72px;
 }
 
@@ -927,16 +930,27 @@ img {
     text-align: left;
   }
 
+  .team-container,
+  .customers-container {
+    max-width: 584px;
+  }
+
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
-    margin-left: 92px;
-    margin-right: 92px;
   }
 
   .team-list-item {
     width: calc((100% - 24px) / 2);
+  }
+
+  .customers-list {
+    gap: 72px 24px;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 48px) / 3);
   }
 }
 
@@ -1027,11 +1041,15 @@ img {
     padding-bottom: 120px;
   }
 
-  .team-list {
-    margin: 0;
-  }
-
   .team-list-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .customers {
+    padding: 120px 0;
+  }
+
+  .customers-list-item {
+    width: calc((100% - 120px) / 6);
   }
 }
