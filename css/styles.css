@@ -206,7 +206,7 @@ img {
   margin-bottom: 8px;
 }
 
-.text {
+.choose-list-text {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -941,6 +941,7 @@ img {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -989,6 +990,24 @@ img {
   }
 
   .product {
+    display: block;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .product-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+  }
+
+  .product-list {
     display: flex;
+    gap: 24px;
+  }
+
+  .product-list-item {
+    /* width: 100%; */
   }
 }
