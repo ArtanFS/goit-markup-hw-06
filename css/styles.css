@@ -214,6 +214,10 @@ img {
 
 /**-------------Main-S3--Products-------*/
 
+.product {
+  display: none;
+}
+
 /**-------------Main-S4--Team-------*/
 
 .team {
@@ -857,7 +861,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .product,
   .header-menu {
     display: none;
   }
@@ -868,7 +871,7 @@ img {
   .container {
   }
 
-  .title {
+  .hero-title {
     font-size: 36px;
   }
 }
@@ -983,5 +986,9 @@ img {
 
   .choose-list-text {
     font-weight: inherit;
+  }
+
+  .product {
+    display: flex;
   }
 }
