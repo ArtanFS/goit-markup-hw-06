@@ -58,29 +58,20 @@
   transition: color var(--transition);
 }
 
-/* .header-adr-link:hover,
+.header-adr-link:hover,
 .header-adr-link:focus {
   color: var(--color-pressed);
-} */
-
-.hero {
-  max-width: 1440px;
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/bg_office_m.jpg);
 }
 
 .hero-btn {
   transition: background-color var(--transition);
 }
 
-/* .hero-btn:hover,
+.hero-btn:hover,
 .hero-btn:focus {
   border-color: var(--color-pressed);
   background-color: var(--color-pressed);
-} */
+}
 
 /**-------------Main-S2--Choose-------*/
 
