@@ -155,14 +155,14 @@ img {
 .title {
   margin: 0 auto;
   color: var(--color-dark);
-  font-size: 32px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
 
 .hero-title {
+  font-size: 32px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   max-width: 320px;
   margin-bottom: 72px;
   color: var(--color-whitebg);
@@ -186,25 +186,23 @@ img {
 
 /**-------------Main-S2--Choose-------*/
 
-.choose-list-item {
-  max-width: 396px;
-}
-
-.choose-list-item:not(:last-child) {
-  margin-bottom: 72px;
+.choose-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 
 .choose-list-block {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 112px;
-  margin-bottom: 8px;
-  border-radius: 4px;
-  background-color: var(--color-light);
+  display: none;
+}
+
+.choose-list-item {
+  width: 100%;
 }
 
 .choose-list-title {
+  font-size: 36px;
+  line-height: 1.11;
   margin-bottom: 8px;
 }
 
@@ -850,7 +848,7 @@ img {
   justify-content: space-between;
 }
 
-/**---------Moedia-----------------------*/
+/**-----------Media-----------------------*/
 
 @media screen and (max-width: 427px) {
   .mobile-adr-phone {
@@ -859,7 +857,6 @@ img {
 }
 
 @media screen and (max-width: 767px) {
-  .choose-list-block,
   .product,
   .header-menu {
     display: none;
@@ -907,14 +904,25 @@ img {
     }
   }
 
-  .title {
+  .hero-title {
     font-size: 56px;
     line-height: 1.07;
-  }
-
-  .hero-title {
     max-width: 496px;
     margin-bottom: 36px;
+  }
+
+  .choose-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+  }
+
+  .choose-list-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .choose-list-title {
+    text-align: left;
   }
 }
 
@@ -923,6 +931,8 @@ img {
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .hero {
@@ -949,5 +959,29 @@ img {
 
   .hero-title {
     margin-bottom: 48px;
+  }
+
+  .choose-list-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .choose-list-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+    background-color: var(--color-light);
+  }
+
+  .choose-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+
+  .choose-list-text {
+    font-weight: inherit;
   }
 }

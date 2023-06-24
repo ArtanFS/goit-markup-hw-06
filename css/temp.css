@@ -63,6 +63,8 @@
   color: var(--color-pressed);
 }
 
+/**-------------Main-S1--Hero-------*/
+
 .hero-btn {
   transition: background-color var(--transition);
 }
@@ -75,24 +77,11 @@
 
 /**-------------Main-S2--Choose-------*/
 
-.choose-list {
-  /* display: flex;
-  flex-direction: column; */
-  /* gap: 72px; */
+.title {
+  font-size: 32px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
-
-.choose-list-title {
-  margin-bottom: 8px;
-  /* color: var(--color-dark);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em; */
-}
-
-/* .choose-list-text {
-  max-width: 396px;
-} */
 
 /**-------------Main-S4--Team-------*/
 
