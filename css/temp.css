@@ -79,54 +79,30 @@
 
 /**-------------Main-S4--Team-------*/
 
-.team-title {
-  margin-bottom: 72px;
-  /* max-width: 163px;
-  margin: 0 auto 72px;
-  color: var(--color-dark);
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-  text-transform: capitalize; */
-}
-
-.team-list {
-  /* display: flex;
-  flex-direction: column;
-  gap: 72px;
-  align-items: center; */
-}
-
-.team-list-item {
-  max-width: 264px;
-  /* width: calc((100% -72px) / 4); */
-}
-
 .team-soc-link {
   transition: background-color var(--transition);
 }
 
-/* .team-soc-link:hover,
+.team-soc-link:hover,
 .team-soc-link:focus {
   background-color: var(--color-pressed);
-} */
+}
 
 /**-------------Main-S5--Customers-------*/
 
 .customers {
-  /* padding: 120px 0; */
+  padding: 120px 0;
 }
 
 .customers-item-link {
   transition: border-color var(--transition), color var(--transition);
 }
 
-/* .customers-item-link:hover,
+.customers-item-link:hover,
 .customers-item-link:focus {
   border-color: var(--color-pressed);
   color: var(--color-pressed);
-} */
+}
 
 /**-------------Footer-------------------*/
 

@@ -926,6 +926,18 @@ img {
   .choose-list-title {
     text-align: left;
   }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 64px 24px;
+    margin-left: 92px;
+    margin-right: 92px;
+  }
+
+  .team-list-item {
+    width: calc((100% - 24px) / 2);
+  }
 }
 
 /**------------Desctop-----------------------*/
@@ -1008,5 +1020,18 @@ img {
 
   .product-list-item {
     /* width: 100%; */
+  }
+
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .team-list {
+    margin: 0;
+  }
+
+  .team-list-item {
+    width: calc((100% - 72px) / 4);
   }
 }
