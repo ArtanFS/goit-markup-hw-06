@@ -1060,6 +1060,30 @@ img {
     padding-left: 15px;
   }
 
+  .header-container {
+    justify-content: flex-start;
+  }
+
+  .header-logo {
+    margin-right: 76px;
+  }
+
+  .header-adr {
+    flex-grow: 1;
+    justify-content: end;
+  }
+
+  .header-adr-menu {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .header-adr-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
