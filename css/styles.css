@@ -613,6 +613,7 @@ img {
 .modal-text {
   margin-bottom: 16px;
   color: var(--color-dark);
+  font-size: 13px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -701,7 +702,7 @@ img {
 
 .check-text {
   color: var(--color-subtle);
-  font-size: 12px;
+  font-size: 10px;
   line-height: 1.17;
   letter-spacing: 0.04em;
 }
@@ -872,6 +873,14 @@ img {
 @media screen and (min-width: 428px) {
   .hero-title {
     font-size: 36px;
+  }
+
+  .modal-text {
+    font-size: inherit;
+  }
+
+  .check-text {
+    font-size: 12px;
   }
 }
 
@@ -1048,6 +1057,12 @@ img {
   .footer-input {
     width: 264px;
     margin: 0;
+  }
+
+  .modal {
+    max-width: 408px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 }
 
