@@ -1,58 +1,23 @@
 .header-logo {
-  /* display: inline-block; */
-  /* margin-right: 76px; */
-  /* padding-bottom: 24px; */
-}
-
-.header-nav {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: flex-end; */
+  display: inline-block;
+  margin-right: 76px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link {
-  display: inline-block;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  color: var(--color-dark);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   transition: color var(--transition);
 }
 
-/* .header-menu-link:focus,
+.header-menu-link:focus,
 .header-menu-link:hover {
   color: var(--color-pressed);
-} */
-
-.link-active {
-  position: relative;
-  color: var(--color-pressed);
-}
-
-.link-active::after {
-  content: '';
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--color-pressed);
-}
-
-.header-adr {
-  font-style: normal;
 }
 
 .header-adr-list {
-  display: flex;
   gap: 40px;
 }
 
 .header-adr-link {
-  color: currentColor;
   line-height: 1.5;
   letter-spacing: 0.02em;
   transition: color var(--transition);
@@ -102,22 +67,6 @@
 
 /**-------------Footer-------------------*/
 
-.footer-logo-container {
-  margin-right: 120px;
-}
-
-.footer-logo {
-  display: inline-block;
-}
-
-.footer-soc-container {
-  margin-right: 80px;
-}
-
-.footer-soc-text {
-  max-width: 98px;
-}
-
 .footer-soc-link {
   transition: background-color var(--transition);
 }
@@ -152,35 +101,35 @@
   transition: background-color var(--transition), border var(--transition);
 }
 
-/* .modal-btn:hover,
+.modal-btn:hover,
 .modal-btn:focus {
   border: none;
   background-color: var(--color-pressed);
-} */
+}
 
 .modal-btn-close {
   transition: fill var(--transition);
 }
 
-/* .modal-btn:hover .modal-btn-close,
+.modal-btn:hover .modal-btn-close,
 .modal-btn:focus .modal-btn-close {
   fill: var(--color-whitebg);
-} */
+}
 
-/* .check-link:hover,
+.check-link:hover,
 .check-link:focus {
   color: var(--color-pressed);
-} */
+}
 
 .modal-check:focus + .check-text .modal-check-visible {
-  /* border-color: var(--color-pressed); */
+  border-color: var(--color-pressed);
 }
 
 .form-button {
   transition: background-color var(--transition);
 }
 
-/* .form-button:hover,
+.form-button:hover,
 .form-button:focus {
   background-color: var(--color-pressed);
-} */
+}
