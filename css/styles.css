@@ -538,6 +538,7 @@ img {
   width: 100vw;
   height: 100vh;
   background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity var(--transition), visibility var(--transition);
 }
 
 .modal {
@@ -554,6 +555,7 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
   z-index: 999;
+  transition: transform var(--transition);
 }
 
 .modal-btn {
@@ -848,6 +850,11 @@ img {
   .mobile-adr-phone {
     font-size: 36px;
   }
+
+  .modal {
+    max-width: unset;
+    width: 392px;
+  }
 }
 
 /**------------Tablet-----------------------*/
@@ -1026,7 +1033,7 @@ img {
   }
 
   .modal {
-    max-width: 408px;
+    width: 408px;
     padding-left: 24px;
     padding-right: 24px;
   }
@@ -1065,6 +1072,18 @@ img {
     letter-spacing: 0.02em;
   }
 
+  .header-nav-link,
+  .header-adr-link {
+    transition: color var(--transition);
+  }
+
+  .header-nav-link:focus,
+  .header-nav-link:hover,
+  .header-adr-link:hover,
+  .header-adr-link:focus {
+    color: var(--color-pressed);
+  }
+
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -1090,6 +1109,16 @@ img {
 
   .hero-title {
     margin-bottom: 48px;
+  }
+
+  .hero-btn {
+    transition: background-color var(--transition);
+  }
+
+  .hero-btn:hover,
+  .hero-btn:focus {
+    border-color: var(--color-pressed);
+    background-color: var(--color-pressed);
   }
 
   .choose-list-item {
@@ -1147,12 +1176,31 @@ img {
     width: calc((100% - 72px) / 4);
   }
 
+  .team-soc-link {
+    transition: background-color var(--transition);
+  }
+
+  .team-soc-link:hover,
+  .team-soc-link:focus {
+    background-color: var(--color-pressed);
+  }
+
   .customers {
     padding: 120px 0;
   }
 
   .customers-list-item {
     width: calc((100% - 120px) / 6);
+  }
+
+  .customers-item-link {
+    transition: border-color var(--transition), color var(--transition);
+  }
+
+  .customers-item-link:hover,
+  .customers-item-link:focus {
+    border-color: var(--color-pressed);
+    color: var(--color-pressed);
   }
 
   .footer {
@@ -1170,5 +1218,57 @@ img {
 
   .footer-soc-container {
     margin-right: 80px;
+  }
+
+  .footer-soc-link,
+  .footer-btn {
+    transition: background-color var(--transition);
+  }
+
+  .footer-soc-link:hover,
+  .footer-soc-link:focus {
+    background-color: var(--color-success);
+  }
+
+  .footer-btn:hover,
+  .footer-btn:focus {
+    background-color: var(--color-pressed);
+  }
+
+  .modal-btn {
+    transition: background-color var(--transition), border var(--transition);
+  }
+
+  .modal-btn:hover,
+  .modal-btn:focus {
+    border: none;
+    background-color: var(--color-pressed);
+  }
+
+  .modal-btn-close {
+    transition: fill var(--transition);
+  }
+
+  .modal-btn:hover .modal-btn-close,
+  .modal-btn:focus .modal-btn-close {
+    fill: var(--color-whitebg);
+  }
+
+  .check-link:hover,
+  .check-link:focus {
+    color: var(--color-pressed);
+  }
+
+  .modal-check:focus + .check-text .modal-check-visible {
+    border-color: var(--color-pressed);
+  }
+
+  .form-button {
+    transition: background-color var(--transition);
+  }
+
+  .form-button:hover,
+  .form-button:focus {
+    background-color: var(--color-pressed);
   }
 }
