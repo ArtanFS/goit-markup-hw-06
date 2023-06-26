@@ -121,3 +121,54 @@
 .form-button:focus {
   background-color: var(--color-pressed);
 }
+
+/**-------Portfolio--------------*/
+
+.filter-menu-btn {
+  transition: color var(--transition), background-color var(--transition),
+    border-color var(--transition), box-shadow var(--transition);
+}
+
+.filter-menu-btn:hover,
+.filter-menu-btn:focus {
+  border: 1px solid transparent;
+  background-color: var(--color-pressed);
+  color: var(--color-whitebg);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filter-result-link {
+  display: block;
+  transition: box-shadow var(--transition);
+}
+
+.filter-result-link:hover,
+.filter-result-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.filter-result-cover {
+  position: relative;
+  overflow: hidden;
+}
+
+.filter-cover-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  padding: 40px 32px;
+  background-color: var(--color-primary-brand);
+  color: var(--color-light);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  transition: transform var(--transition);
+  transform: translateY(100%);
+}
+
+.filter-result-link:hover .filter-cover-text,
+.filter-result-link:focus .filter-cover-text {
+  transform: translate(0);
+}
