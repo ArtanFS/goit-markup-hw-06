@@ -510,11 +510,6 @@ img {
   width: 100%;
 }
 
-.result-img-tab,
-.result-img-desc {
-  display: none;
-}
-
 .filter-cover-text {
   display: none;
 }
@@ -1084,14 +1079,6 @@ img {
     max-width: unset;
     width: calc((100% - 24px) / 2);
   }
-
-  .result-img-mob {
-    display: none;
-  }
-
-  .result-img-tab {
-    display: block;
-  }
 }
 
 /**------------Desctop-----------------------*/
@@ -1343,14 +1330,6 @@ img {
 
   .filter-result-item {
     width: calc((100% - 48px) / 3);
-  }
-
-  .result-img-tab {
-    display: none;
-  }
-
-  .result-img-desc {
-    display: block;
   }
 
   .btn-active {
