@@ -338,6 +338,8 @@ img {
   display: flex;
   flex-direction: column;
   gap: 72px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 .footer-logo-container {
@@ -402,7 +404,6 @@ img {
 
 .footer-subscribe-container {
   max-width: 398px;
-  width: 100%;
 }
 
 .footer-subscribe-text {
@@ -1030,6 +1031,10 @@ img {
 
   .footer-soc-text {
     text-align: left;
+  }
+
+  .footer-subscribe-container {
+    max-width: unset;
   }
 
   .footer-subscribe-form {
