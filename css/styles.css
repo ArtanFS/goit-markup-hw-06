@@ -62,8 +62,8 @@ img {
 }
 
 .container {
-  min-width: 320px;
   width: 100%;
+  min-width: 320px;
   max-width: 428px;
   margin: 0 auto;
   padding-right: 16px;
@@ -100,13 +100,13 @@ img {
 
 .mobile-menu-open {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   padding: 24px 0;
-  background-color: transparent;
-  cursor: pointer;
   border: none;
+  background-color: transparent;
   outline: none;
+  cursor: pointer;
 }
 
 .mobile-menu-icon {
@@ -160,12 +160,12 @@ img {
 }
 
 .hero-title {
-  font-size: 32px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
   max-width: 320px;
   margin-bottom: 72px;
   color: var(--color-whitebg);
+  font-size: 32px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
@@ -201,9 +201,9 @@ img {
 }
 
 .choose-list-title {
+  margin-bottom: 8px;
   font-size: 36px;
   line-height: 1.11;
-  margin-bottom: 8px;
 }
 
 .choose-list-text {
@@ -225,10 +225,10 @@ img {
 }
 
 .team-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 72px;
 }
 
 .team-list {
@@ -239,11 +239,11 @@ img {
 
 .team-list-item {
   width: 264px;
+  margin: 0 auto;
   border-radius: 0px 0px 4px 4px;
   background-color: var(--color-whitebg);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  margin: 0 auto;
 }
 
 .team-list-container {
@@ -251,13 +251,13 @@ img {
 }
 
 .team-list-title {
+  margin-bottom: 8px;
   color: var(--color-dark);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .team-list-text {
@@ -295,17 +295,17 @@ img {
 /**-------------Main-S5--Customers-------*/
 
 .customers-title {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  margin-bottom: 72px;
 }
 
 .customers-list {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
   gap: 72px 16px;
+  align-items: center;
 }
 
 .customers-list-item {
@@ -379,9 +379,9 @@ img {
 
 .footer-soc-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-soc-item {
@@ -418,6 +418,7 @@ img {
 .footer-input {
   width: 100%;
   height: 40px;
+  margin-bottom: 16px;
   padding: 0px 16px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -426,7 +427,6 @@ img {
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -438,6 +438,7 @@ img {
   justify-content: center;
   align-items: center;
   min-width: 165px;
+  margin: 0 auto;
   padding: 8px 24px;
   border: none;
   border-radius: 4px;
@@ -448,7 +449,6 @@ img {
   letter-spacing: 0.04em;
   text-align: center;
   cursor: pointer;
-  margin: 0 auto;
 }
 
 .footer-btn-icon {
@@ -469,8 +469,8 @@ img {
   gap: 16px 24px;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 48px;
   max-width: 270px;
+  margin-bottom: 48px;
 }
 
 .filter-menu-btn {
@@ -488,9 +488,9 @@ img {
 }
 
 .btn-active {
+  border: none;
   background-color: var(--color-pressed);
   color: var(--color-whitebg);
-  border: none;
 }
 
 .filter-result {
@@ -551,6 +551,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 999;
   width: 100vw;
   max-width: 392px;
   min-height: 584px;
@@ -559,9 +560,8 @@ img {
   background-color: var(--color-modalbg);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  transform: translate(-50%, -50%) scale(1);
-  z-index: 999;
   transition: transform var(--transition);
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .modal-btn {
@@ -593,8 +593,8 @@ img {
 .modal-text {
   margin-bottom: 16px;
   color: var(--color-dark);
-  font-size: 13px;
   font-weight: 500;
+  font-size: 13px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
@@ -746,27 +746,27 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.1);
   border-radius: 50%;
   background-color: transparent;
-  cursor: pointer;
   outline: none;
+  cursor: pointer;
 }
 
 .mobile-menu-container {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: auto;
   width: 100vw;
   height: 100%;
   padding: 80px 35px 40px 40px;
   background-color: var(--color-whitebg);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  overflow: auto;
-  transform: translateX(100%);
   transition: transform var(--transition);
+  transform: translateX(100%);
 }
 
 .mobile-menu-container.is-open {
@@ -781,11 +781,11 @@ img {
 }
 
 .mobile-menu-link {
+  color: var(--color-dark);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: var(--color-dark);
 }
 
 .link-act {
@@ -793,21 +793,21 @@ img {
 }
 
 .mobile-adr-phone {
-  font-style: normal;
+  color: var(--color-primary-brand);
   font-weight: 700;
+  font-style: normal;
   font-size: 24px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: var(--color-primary-brand);
 }
 
 .mobile-adr-mail {
-  font-style: normal;
+  color: var(--color-text);
   font-weight: 500;
+  font-style: normal;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
 
 .mobile-soc-container {
@@ -859,8 +859,8 @@ img {
   }
 
   .modal {
-    max-width: unset;
     width: 392px;
+    max-width: unset;
   }
 
   .filter-result-title {
@@ -885,9 +885,9 @@ img {
 
   .header-nav-menu {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
   }
 
   .header-nav-link {
@@ -958,17 +958,17 @@ img {
   }
 
   .hero-title {
-    font-size: 56px;
-    line-height: 1.07;
     max-width: 496px;
     margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.07;
   }
 
   .choose-list {
-    flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 72px 24px;
+    align-items: center;
   }
 
   .choose-list-item {
@@ -988,8 +988,8 @@ img {
   .team-list {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
     gap: 64px 24px;
+    align-items: center;
   }
 
   .team-list-item {
@@ -1007,8 +1007,8 @@ img {
   .footer-container {
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: baseline;
     gap: 72px 24px;
+    align-items: baseline;
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -1052,8 +1052,8 @@ img {
 
   .modal {
     width: 408px;
-    padding-left: 24px;
     padding-right: 24px;
+    padding-left: 24px;
   }
 
   .filter {
@@ -1065,8 +1065,8 @@ img {
     flex-wrap: no-wrap;
     gap: 24px;
     justify-content: center;
-    margin-bottom: 64px;
     max-width: unset;
+    margin-bottom: 64px;
   }
 
   .filter-result {
@@ -1076,8 +1076,8 @@ img {
   }
 
   .filter-result-item {
-    max-width: unset;
     width: calc((100% - 24px) / 2);
+    max-width: unset;
   }
 }
 
@@ -1127,9 +1127,9 @@ img {
   }
 
   .hero {
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
-    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1178,8 +1178,8 @@ img {
   }
 
   .choose-list-title {
-    font-size: 20px;
     font-weight: 500;
+    font-size: 20px;
     line-height: 1.2;
   }
 
@@ -1194,16 +1194,16 @@ img {
   }
 
   .product-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    margin-bottom: 72px;
   }
 
   .product-list {
     display: flex;
-    align-items: center;
     gap: 24px;
+    align-items: center;
   }
 
   .product-list-item {
@@ -1333,9 +1333,9 @@ img {
   }
 
   .btn-active {
+    border: 1px solid var(--color-accent);
     background-color: var(--color-light);
     color: var(--color-primary-brand);
-    border: 1px solid var(--color-accent);
   }
 
   .filter-menu-btn {
@@ -1369,10 +1369,10 @@ img {
   }
 
   .filter-cover-text {
-    display: block;
     position: absolute;
     top: 0;
     left: 0;
+    display: block;
     height: 100%;
     padding: 40px 32px;
     background-color: var(--color-primary-brand);
